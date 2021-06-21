@@ -13,6 +13,10 @@ body{
 	border:1% outset #f4c33a;
 	border-radius: 10px;border-bottom: none;
 }
+.logo {
+    height: 150px; width: 150px;
+    float: left;margin-left: 50px;
+}
 h1 {
 	color: #f4c33a;
 }
@@ -27,20 +31,15 @@ h1 {
 	width: 100%; height: 55px;
 	border-top: none
 }
+.menu {
+	margin-left: 17%;
+	margin-top: 20px;
+}
 #pie{
 	width:99.7%;
 	color:#fff;
 	border:2px outset #f4c33a;
 	background: #000;border-radius: 10px;
-}
-.logo {
-    height: 150px; width: 150px;
-    float: left;margin-left: 50px;
-	;
-}
-.menu {
-	margin-left: 17%;
-	margin-top: 20px;
 }
 a{
 	color: white;margin-right: 40px;
