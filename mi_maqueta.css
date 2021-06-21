@@ -4,14 +4,14 @@ html{
 }
 body{
 	width:99%;height: 100%;
-	margin-left: 5px;/*border: 1px solid violet;*/
+	margin-left:0.5%/*border: 1px solid violet;*/
 }
 #contenedor{
 	width: 100%;height: auto;
 }
 .cabeza{
-	border: 2px outset #f4c33a;
-	border-radius: 10px;
+	border:1% outset #f4c33a;
+	border-radius: 10px;border-bottom: none;
 }
 h1 {
 	color: #f4c33a;
@@ -39,7 +39,7 @@ h1 {
 	;
 }
 .menu {
-	margin-left: 300px;
+	margin-left: 17%;
 	margin-top: 20px;
 }
 a{
