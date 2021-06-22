@@ -1,0 +1,98 @@
+html{
+	background-color: black;
+	width: 100%;height: 100%;
+}
+body{
+	width:99%;height: 100%;
+	margin-left:0.5%/*border: 1px solid violet;*/
+}
+#contenedor{
+	width: 100%;height: auto;
+}
+.cabeza{
+	border:1% outset #f4c33a;
+	border-radius: 10px;border-bottom: none;
+}
+.logo {
+    height: 150px; width: 150px;
+    float: left;margin-left: 50px;
+}
+h1 {
+	color: #f4c33a;
+}
+#cabecera{
+	color:#fff;background:rgb(0, 0, 0);
+	width: 100%;height:90px;
+	padding-top:10px;font-size: 23px;text-align: center;
+	top: 0;
+}
+#navegacion{
+	color:white;background:#000000;
+	width: 100%; height: 55px;
+	border-top: none
+}
+.menu {
+	margin-left: 17%;
+	margin-top: 25px;
+}
+#pie{
+	width:99.7%;
+	color:#fff;
+	border:2px outset #f4c33a;
+	background: #000;border-radius: 10px;
+}
+a{
+	color: white;margin-right: 40px;
+	border: 2px outset #f4c33a ;
+	border-radius: 8px; padding:5px 30px 5px 30px;
+	font-size: 25px;text-decoration: none;
+}
+.centro {
+	width:99.7%;height: auto;
+	border: 2px outset #f4c33a ;
+	border-radius: 10px;
+}
+.imgpie {
+	width: 100%;
+	
+}
+.imgpromo {
+ width: 100%;
+}
+.navicon{
+	float: right;
+	font-size: 20px;padding: 1px 8px 5px 5px;
+}
+
+.abajo {
+	border-radius: 10px;
+	color:#fff;
+	padding: top 5px; font-size: 20px;text-align: left;
+}
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+			/*las imágenes usadas tienen width de 48px*/
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			height:205px;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-100px;
+		}
