@@ -1,4 +1,19 @@
 .service{
-    margin-left: 320px;
-    margin-top: 150px;
+    margin-top: 50px;
+    padding:5px;background-color:black;
+    text-align:center
+
+}
+.btnsearch{
+    background-color:black;
+    color: #f4c33a;border-radius: 10px;
+    padding:5px 10px 5px 10px;margin-left:10px;
+}
+#search{
+    background-color: black;
+    color: #f4c33a;border-radius: 10px;
+    padding:10px 20px 10px 20px;
+}
+::placeholder{
+    color: #f4c33a;
 }
