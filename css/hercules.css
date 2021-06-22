@@ -1,0 +1,135 @@
+html{
+	background-color: black;
+	width: 100%;height: 100%;
+}
+body{
+	width:99%;height: 100%;
+	margin-left:0.5%
+}
+#contenedor{
+	width: 100%;height: auto;
+}
+.cabeza{
+	border:1% outset #f4c33a;
+	border-radius: 10px;border-bottom: none;
+}
+.logo {
+    height: 150px; width: 150px;
+    float: left;margin-left: 50px;
+}
+h1 {
+	color: #f4c33a;
+}
+	#cabecera{
+		color:#fff;background:rgb(0, 0, 0);
+		width: 100%;height:90px;
+		padding-top:10px;font-size: 23px;text-align: center;
+		top: 0;}
+	#navegacion{
+		color:white;background:#000000;
+		width: 100%; height: 55px;
+		border-top: none}
+		.menu {
+			margin-left: 3%;
+			margin-top: 25px;}
+			a.menu{
+				color: white;margin-right:5px;
+				border: 2px outset #f4c33a ;
+				border-radius: 8px; padding:5px 30px 5px 30px;
+				font-size: 25px;text-decoration: none;}
+
+.centro {
+	width:99.7%;height:80%;
+	border: 2px outset #f4c33a ;
+	border-radius: 10px;
+}
+#pie{
+	width:99.7%;height:124px;
+	color:#fff;
+	background: #000;border-radius: 10px;
+	border-bottom: 2px outset #f4c33a;
+	margin-top: 5px;padding-top: 9px;
+}
+div.pieresenas{
+	float: left;height:120px;
+	width:200px;margin-left:20px;
+	text-align: center;
+
+}
+.navicon{
+	float: right;
+}
+div.social{
+	float: right;margin-right: 10px;}
+	div.icon {
+			width: 100% ; height: 100%;
+			display: block;}
+		a.icon-facebook2 {
+			color: blue; background-color: white;
+			border-radius: 10px;text-decoration: none}
+		a.icon-whatsapp {
+			color: green ; border-radius: 10px;
+			text-decoration: none}
+		a.icon-instagram {
+			color: rgb(218, 25, 131);border-radius: 10px;text-decoration: none}
+		a.icon-twitter {
+			color:aqua ; border-radius: 10px;text-decoration: none}
+		a.icon-linkedin {
+			color: blue ; background-color: white;
+			border-radius: 7px ; text-decoration: none}
+		a.icon-google-plus3 {
+			color:red ; text-decoration: none;}
+
+
+
+
+
+
+			#toggle{
+				display: none;
+			}
+			
+			.button{
+				z-index: 999;
+				width: 43px;
+				height: 43px;
+				background: rgb(0, 0, 0);
+				border-radius: 10px;
+				cursor: pointer;
+				text-align: center;
+				border: 2px outset #f4c33a;
+				padding: 8px;margin-left: 80%;
+			}
+			
+			.nav{
+				transform: translate(-10%);
+				opacity: 0;
+				top: 13%;
+				right: 20%;
+				background:#f4c23aaf;
+				border: 2px outset #000000;
+				width: 250px;
+				border-radius: 10px;
+				transform: translate(0%);
+			}
+			
+			.nav a{
+				text-align: center;
+				display: block;
+				margin: 20px 0;
+				color: white;
+				text-decoration: none;
+				font-family: sans-serif;
+				text-decoration: uppercase;
+				letter-spacing: 2px;
+			}
+			
+			#toggle:checked ~.nav{
+				opacity: 1;
+				transform: translateY(10%);
+			}
+			
+			#toggle:checked ~ .button{
+				transform: rotate(135deg);
+				box-shadow: 0 0 0 0 transparent;
+			}
