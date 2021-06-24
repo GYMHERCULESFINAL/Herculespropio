@@ -19,9 +19,9 @@
 }
 .texto{
    color:#FFF;
+   
 }
-.mapa{
-    color: #FFF;
-    margin-top:70px ;
-    margin-left: 60px;
+#map {
+	height: 60%;
+	width: 40%;
 }
