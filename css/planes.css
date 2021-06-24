@@ -22,7 +22,7 @@
     width:300px;height: 360px;
     border: 2px outset #f4c33a;
     color: white;text-align: center;
-    float: right;display:inline-block;
+    display:inline-block;
     border-radius: 10px;border-top: none;border-bottom: none;
     margin-top:10px;margin-bottom:10px;z-index: 1;
     background-color: black;
