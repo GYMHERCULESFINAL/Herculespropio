@@ -1,29 +1,40 @@
-.centroplanes{
-    width:100%;
+.centroplanes {
+    background-color:#f4c23a1e;
+    align-content:center;margin-left: 10%;	
+    width:100%;height:auto;
+	border: 2px outset #f4c33a ;
+	border-radius: 10px;max-width: 1000px;
+	padding:0% 5% 0% 5%;border-right: none;
+    border-left: none
+
+}
+.planes{
+    width:100%;align-content:center;
+    
 }
 .peco{
-    width:300px; height: 360px;
+    width:300px; height:auto;
     border: 2px outset #f4c33a;
     color: white;display:inline-block;
     text-align: center;border-radius: 10px;
     border-top: none;border-bottom: none;
     margin-top:10px;margin-bottom:10px;
-    background-color: black;margin-left:230px;
+    background-color: black;
 }
 .pest{
-    width:300px;height: 360px;
+    width:300px;height:auto;
     border:2px outset #f4c33a;
     color: white;display: inline-block;
-    text-align: center;margin-left:45px;
+    text-align: center;margin-left:40px;
     border-radius: 10px;border-top: none;border-bottom: none;
     background-color: black;
 }
 .ppre{
-    width:300px;height: 360px;
+    width:300px;height: auto;
     border: 2px outset #f4c33a;
     color: white;text-align: center;
     display:inline-block;
     border-radius: 10px;border-top: none;border-bottom: none;
-    background-color: black;margin-left:45px;
+    background-color: black;margin-left:40px;
     
 }
