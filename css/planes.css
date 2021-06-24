@@ -1,23 +1,29 @@
 .centroplanes{
-    width: 99%; height:99%;
-    
+    width:100%;
 }
 .peco{
-    width: 400px; height: 400px;
-    border: 1px solid yellow;
+    width:300px; height: 360px;
+    border: 2px outset #f4c33a;
     color: white;display:inline-block;
-    text-align: center;
-    
+    text-align: center;border-radius: 10px;
+    border-top: none;border-bottom: none;
+    margin-top:10px;margin-bottom:10px;
+    background-color: black;margin-left:230px;
 }
 .pest{
-    width: 400px;height: 400px;
-    border: 1px solid rgb(255, 0, 0);
+    width:300px;height: 360px;
+    border:2px outset #f4c33a;
     color: white;display: inline-block;
-    text-align: center;
+    text-align: center;margin-left:45px;
+    border-radius: 10px;border-top: none;border-bottom: none;
+    background-color: black;
 }
 .ppre{
-    width: 400px;height: 400px;
-    border: 1px solid yellow;
+    width:300px;height: 360px;
+    border: 2px outset #f4c33a;
     color: white;text-align: center;
+    display:inline-block;
+    border-radius: 10px;border-top: none;border-bottom: none;
+    background-color: black;margin-left:45px;
     
 }
