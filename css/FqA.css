@@ -1,3 +1,10 @@
-.form-preguntas{
-    color: #ffffff;
+.centro{
+    width: 80%; height: 80px;
+    border: 1px solid yellow;
+    color: white;display:inline-block;
+    text-align: center;
+}
+
+    #main-content{
+    text-decoration-color: blanchedalmond;
 }
