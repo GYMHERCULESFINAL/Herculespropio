@@ -60,10 +60,9 @@
     text-decoration: underline;
   }
   
-  .form-register .botons {
+  .botons {
     width: 100%;
     background: #75d818;
-    border: none;
     padding: 12px;
     color:#fff;
     margin: 16px 0;
