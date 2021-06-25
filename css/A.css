@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(238, 146, 9);
     text-align: center;
 }
 h1 {
@@ -11,23 +11,22 @@ h1 {
     
 }
 h2 {
-    font-size: 5.5em;
-transform: translatey(180%);
-transform: translateX(0%);
+    font-size: 5em;
+transform: translatey(-90%)
 }
-
 h3 {
-    font-size: 5.5em;
-transform: translatey(-10%);
-transform: translateX(0.1%);
+    text-align: left;
+    transform: translatey(-43%) translatex(-21%)
 }
-
 h4 {
     font-size: 16px;
     font-weight: 700;
 }
+h5 {
+    margin: 15px;
 
-.header {
+}
+header {
     padding: 36px 0 0 0;
     background: #000208;
     text-align: center;
@@ -71,7 +70,7 @@ ul {
 }
 .vacio {
     padding: 20px;
-    background-color: black;
+    background-color:#fbaf32;
     text-align: center;
     border-radius: 20px;
     color:white;
@@ -89,7 +88,7 @@ ul {
     margin-bottom: 0;
 }
 .barra {
-    padding: 85px 0;
+    padding: 50px 0;
     background: #1d2124;
     transform: translatey(-65%)
 }
@@ -147,5 +146,4 @@ ul {
 .info-card .precio span {
     font-weight: 700;
     font-size: 22px;
-}
 }
