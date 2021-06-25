@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\jersonoc.github.com"
+		},
+		{
+			"path": "..\\..\\-jersonoc.github.io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Herculespropio"
+	}
+}

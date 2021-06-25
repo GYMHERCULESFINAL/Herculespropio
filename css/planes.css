@@ -1,15 +1,18 @@
-.centroplanes {
-    background-color:#f4c23a1e;
-    align-content:center;margin-left: 10%;	
-    width:100%;height:auto;
-	border: 2px outset #f4c33a ;
-	border-radius: 10px;max-width: 1000px;
-	padding:0% 5% 0% 5%;border-right: none;
-    border-left: none
-
+.title{
+    width: 91.751%;
+    background: #f4c23ac9;
+    border: none;
+    padding: 12px;
+    color:#fff;
+    margin: 16px 0;
+    font-size: 16px;
 }
 .planes{
-    width:100%;align-content:center;
+    width:100%; height: 500px;
+    align-content:center;
+    border: solid rgb(0, 0, 0);
+    padding: 20px 20px 20px 20px;
+    
     
 }
 .peco{
@@ -20,6 +23,7 @@
     border-top: none;border-bottom: none;
     margin-top:10px;margin-bottom:10px;
     background-color: black;
+    box-shadow: 15px 10px 18px #f4c33a;
 }
 .pest{
     width:300px;height:auto;
@@ -28,6 +32,7 @@
     text-align: center;margin-left:40px;
     border-radius: 10px;border-top: none;border-bottom: none;
     background-color: black;
+    box-shadow: 15px 10px 18px #f4c33a;
 }
 .ppre{
     width:300px;height: auto;
@@ -36,6 +41,7 @@
     display:inline-block;
     border-radius: 10px;border-top: none;border-bottom: none;
     background-color: black;margin-left:40px;
+    box-shadow: 15px 10px 18px #f4c33a;
     
 }
 .buttcomprar{
@@ -46,12 +52,10 @@
     margin: 16px 0;
     font-size: 16px;
 }
-.title{
-    width: 91.751%;
-    background: #f4c23ac9;
-    border: none;
-    padding: 12px;
-    color:#fff;
-    margin: 16px 0;
-    font-size: 16px;
+.piegrande{
+    align-self: flex-end;
+    
+    padding: 120px 5px;
+    
+
 }
