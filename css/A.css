@@ -14,19 +14,13 @@ h2 {
     font-size: 5em;
 transform: translatey(-90%)
 }
-h3 {
-    text-align: left;
-    transform: translatey(-43%) translatex(-21%)
-}
+
 h4 {
     font-size: 16px;
     font-weight: 700;
 }
-h5 {
-    margin: 15px;
 
-}
-header {
+.header {
     padding: 36px 0 0 0;
     background: #000208;
     text-align: center;
@@ -146,4 +140,5 @@ ul {
 .info-card .precio span {
     font-weight: 700;
     font-size: 22px;
+}
 }
