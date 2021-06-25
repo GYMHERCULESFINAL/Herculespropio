@@ -44,15 +44,16 @@ h2{
 				font-size: 25px;text-decoration: none;}
 
 .centro {
-	width:100%;height:auto;
-	border: 2px outset #f4c33a ;
+	width:100%;height:auto;min-width:600px;
+	border: 2px outset #f4c33a ;min-height:420px;
 	border-radius: 10px;max-width: 1000px;
-	padding:0% 5% 0% 5%;align-content:center;overflow-y:hidden;
+	padding:0% 5% 0% 5%;align-content:center;
+	margin-left: 10%;
 }
 #pie{
-	width:99.7%;height:124px;
+	width:100%;min-height:120px;
 	color:#fff;
-	background: #000;border-radius: 10px;
+	background: rgba(0, 0, 0, 0.719);border-radius: 10px;
 	border-bottom: 2px outset #f4c33a;
 	margin-top: 5px;padding-top: 9px;
 }
@@ -139,3 +140,4 @@ div.social{
 				transform: rotate(135deg);
 				box-shadow: 0 0 0 0 transparent;
 			}
+a{text-decoration: none;color: white;}
