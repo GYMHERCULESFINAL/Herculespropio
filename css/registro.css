@@ -1,19 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: black;
+
+  h1{
+    color: #fff;
+    padding: 20px;
+    margin-top: 25px;
   }
   
   .form-register {
     width: 400px;
     background: #000;;
-    padding: 30px;
+    padding: 15px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 30px;
     border-radius: 4px;
     font-family: 'calibri';
     color:#ffff;
@@ -63,3 +60,11 @@
     margin: 16px 0;
     font-size: 16px;
   }
+
+.footer{
+    align-self: flex-end;
+    background-color: #f4c33a;
+    line-height: 5;
+    text-align: center;
+    width: 100%;
+}
