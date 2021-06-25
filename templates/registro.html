@@ -1,24 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
+<!--Metas-->
+	<meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/registro.css">
-  <title>Formulario Registro</title>
+<!--Css-->
+	<link rel="stylesheet" type="text/css" href="../css/hercules.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monitos.css">
+	<link rel="icon"  href="../logolisto.ico">
+  <link rel="stylesheet" type="text/css" href="registro.css"/>
+<!--Js-->
+
+<title>Registro</title>
 </head>
+
 <body>
-  
+<div id="contenedor">
+	<div class="cabeza">
+		<img class="logo" src="../img/logo.png">
+
+		<div id="cabecera">
+			<h1>Registro</h1>
+		</div>
+
+		<div id="navegacion">
+      <div class="menu">
+				<a class="menu" href="../index.html">Inicio</a>
+				<a class="menu" href="../templates/sedes.html">Sedes</a>
+				<a class="menu" href="../templates/clases.html">Clases</a>
+				<a class="menu" href="../templates/planes.html">Planes </a>
+				
+				<div class="navicon">
+					<input type="checkbox" id="toggle">
+					<label for="toggle" class="button">☰</label>
+	
+					  <nav class="nav">
+						  <a href="#">Inicio</a>
+						  <a href="../templates/registro.html">Registro/Iniciar</a>
+						  <a href="#">Trabajo con nosotros</a>
+					  </nav>
+				</div>
+			</div>       
+		</div>
+	</div>
+
+	<div class="centro">
+   <h1>REGISTRO DE DATOS</h1>
   <section class="form-register">
+
     <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
     <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
     <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-    <button class="botons"> REGISTRAR</button>
+    <input class="botons" type="submit" value="Registrar">
     <p><a href="#">¿Ya tengo Cuenta?</a></p>
   </section>
+	</div>
 
+	<div id="pie" class="fotter">
+		<div class="social">
+			<div class="icon"><a class="icon-facebook2" href="https://www.facebook.com/"></a></div>
+			<div class="icon"><a class="icon-instagram" href="https://www.instagram.com/?hl=es-la"></a></div>
+			<div class="icon"><a class="icon-whatsapp"; href="productos.html"></a></div>
+			<div class="icon"><a class="icon-google-plus3" href="google.cl"></a></div>
+			<div class="icon"><a class="icon-twitter" href="https://twitter.com/87b y"></a></div>
+			<div class="icon"><a class="icon-linkedin" href="https://www.linkedin.com/"></a></div>
+		</div>
+		<div class="pieresenas">
+        	<a>¿Quienes somos?</a><br><br>
+        	<a>Términos y condiciones</a>
+    	</div>
+
+    	<div class="pieresenas">
+        	<a href="../templates/FaQ.html">FaQ</a><br><br>
+	    	<a>Derechos son reservados</a><br><br>
+	    	<a>Libro de reclamaciones</a>
+		</div>
+		
+	</div><br>
+</div>
 </body>
-</html> 
-<button>
+
+</html>

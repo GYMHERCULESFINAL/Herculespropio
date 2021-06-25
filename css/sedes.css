@@ -1,6 +1,5 @@
 .service{
-    margin-top: 50px;
-    padding:5px;background-color:black;
+    background-color:black;
     text-align:center
 
 }
@@ -21,4 +20,6 @@
    color:#FFF;
    
 }
-
+#map{
+    width:auto;min-height: 200px;
+}
