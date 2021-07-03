@@ -1,5 +1,9 @@
-
 .piecitos{
   align-self: flex-end;
 
+}
+.piegrande{
+  align-self: flex-end;
+  
+  padding: 120px 5px;
 }
