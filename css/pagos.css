@@ -26,8 +26,8 @@
     text-align: center;
 }
 .bcp{
-    width:300px; height:520px;
-    border: 2px inset #f4c33a;
+    width:300px; height:320px;
+    border: 2px outset #f4c33a;
     color: white;display:inline-block;
     text-align: center;border-radius: 10px;
     border-top: none;border-bottom: none;
@@ -36,7 +36,7 @@
 }
 
 .interbank{
-    width:300px;height:520px;
+    width:300px;height:320px;
     border:2px outset #f4c33a;
     color: white;display: inline-block;
     text-align: center;margin-left:40px;
@@ -45,7 +45,7 @@
 }
 
 .scotiabank{
-    width:300px;height: 520px;
+    width:300px;height: 320px;
     border: 2px outset #f4c33a;
     color: white;text-align: center;
     display:inline-block;
