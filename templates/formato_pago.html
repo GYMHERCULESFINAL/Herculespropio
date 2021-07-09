@@ -2,17 +2,16 @@
 <html lang="es">
 <head>
 <!--Metas-->
-	<meta charset="utf-8" />
+	<meta charset="utf-8"/>	
 <!--Css-->
 	<link rel="stylesheet" type="text/css" href="../css/hercules.css" />
 	<link rel="stylesheet" type="text/css" href="../css/monitos.css">
-	<link rel="stylesheet" type="text/css" href="../css/sedes.css">
+	<link rel="stylesheet" type="text/css" href="/css/pagos.css">
 	<link rel="icon"  href="../logolisto.ico">
-	<link rel="stylesheet" href="../css/medios.css">
-	<link rel="stylesheet" href="../css/pagos.css">
 <!--Js-->
 
 
+	
 </head>
 
 <body>
@@ -21,7 +20,7 @@
 		<img class="logo" src="../img/logo.png">
 
 		<div id="cabecera">
-			<h1></h1>
+			<h1>¡REALIZA TUS PAGOS AQUI!</h1>
 		</div>
 
 		<div id="navegacion">
@@ -30,237 +29,180 @@
 				<a class="menu" href="../templates/sedes.html">Sedes</a>
 				<a class="menu" href="../templates/clases.html">Clases</a>
 				<a class="menu" href="../templates/planes.html">Planes </a>
-				<title>MEDIOS DE PAGOS</title>
-			
+				
+				<div class="navicon">
+					<input type="checkbox" id="toggle">
+					<label for="toggle" class="button">☰</label>
 	
-                </div>
+					<nav class="nav">
+						<a href="../templates/registro.html">Registro/Iniciar</a>
+                        <a href="/templates/FaQ.html">FqA</a>
+                        <a href="#">Trabaja Con Nosotros</a>
+					</nav>
+				</div>
 			</div>
            
 		</div>
 
-	
-
-	<div class="centro">
-	    <div>
-			<div class="barra">
-				<div class="container">
-					<div class="row">
-						<div class="four columns icono icono1">
-							<p>COBERTURA A NIVEL NACIONAL<br>
-							Mas de 50 locales ¡Inscribete ya! Aprovecha nuestros descuentos</p>
-						</div>
-						<div class="four columns icono icono2">
-							<p>SEGURIDAD TOTAL<br>
-							Nuestra plataforma te permite pagar facil y comodamente</p>
-						</div>
-						<div class="four columns icono icono3">
-							<p>TARJETA CREDITO/DEBITO<br>
-							Aceptamos todas las tarjetas Visa, Mastercard, American express</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div>
-			<header class="header">
-				<div class="container">
-					<div class="row"></div>
-						</div>
-						<div class="two columns u-pull-right">
-						</div>
-					</div>
-			</header>
-		
-			<div class="banner">
-				<div class="container"> 
-					<div class="row">  
-						<div class="six columns">
-							<div class="contenido-banner">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		
-			<div class="lista-pagos" class="container">
-				<h2 class="encabezado">TARJETAS VISA / MASTERCARD</h2>
-				<div class="row">
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/INTERBANK.png" class="imagen-platillo u-full-width">
-							<div class="info-card">
-								<h4>INTERBANK</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"> <span class="u-pull-right"></span> </p>
-								<h5><a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a></h5>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/bcp.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>BANCO DE CREDITO DEL PERU</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"> <span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/scotiabank.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>SCOTIABANK</h4>
-								<p>Pago en dolares y soles</p>                      
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-				</div>
-		
-				<div class="row">
-					<div class="four columns">
-						<div class="card">
-							<img src="../imG/mastercard.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>Mastercad</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/nacion.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>BANCO DE LA NACION</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/continental.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>BANCO CONTINENTAL</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="lista-pagos" class="container">
-					<h3 class="encabezado">APPS DE PAGOS</h3>
-					</div>
-				<div class="row">
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/paypal.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>PAYPAL</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/yape.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>YAPE</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/lukita.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>LUKITA</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-				</div>
-		
-				<div class="row">
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/pagoefectivo.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>PAGO EFECTIVO</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/tunki.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>TUNKI</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="card">
-							<img src="../img/ligo.png" class="imagen-pagos u-full-width">
-							<div class="info-card">
-								<h4>LIGO</h4>
-								<p>Pago en dolares y soles</p>
-								<p class="precio"><span class="u-pull-right"></span> </p>
-								<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">PAGAR AQUI</a>
-							</div>
-						</div>
-					</div>
-				</div>
-		
-			</div>
-		
 	</div>
-</div>		
-			<footer class="footer"> 
-				<div class="container">
-					<div class="row">
-						<div class="four columns">
-							<nav class="menu">
-								<a class="enlace" href="#"></a>
-								<a class="enlace" href="#"></a>
-								<a class="enlace" href="#"></a>
-							</nav>
-						</div>
-						<div class="four columns">
-							<nav class="menu">
-								<a class="enlace" href="#"></a>
-								<a class="enlace" href="#"></a>
-								<a class="enlace" href="#"></a>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</footer>
-		
-			
+
+	<div class="clases">
+        <div class="tiposdeclases">
+			<h2 class="subtitulo">TARJETAS DE CREDITO</h2>
+        	<div class="bcp">
+        	    <h2>BANCO DE CREDITO</h2>
+        	        <h3><br></h3>
+        	    <p>
+					<h3>
+					</h3>
+					<img src="../img/01 bcp.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="interbank">
+        	    <h2>INTERBANK</h2>
+        	        <h3><br></h3>
+        	    <p><h3>
+					</h3>
+					<img src="../img/02 inter.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="scotiabank">
+        	    <h2>SCOTIABANK</h2>
+        	        <h3><br></h3>
+        	    <p><h3>
+					</h3>
+					<img src="../img/03 scot.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
 		</div>
-		</html>
+		<div class="tiposdeclases2">	
+			<div class="continental">
+        	    <h2>BANCO CONTINENTAL</h2>
+        	        <h3><br></h3>
+        	    <p><h3>
+					</h3>
+					<img src="../img/04 bbva.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="nacion">
+        	    <h2>BANCO DE LA NACION</h2>
+        	        <h3><br></h3>
+        	    <p><h3>
+					</h3>
+					<img src="../img/05 bnp.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="pichincha">
+        	    <h2>BANCO PICHINCHA</h2>
+        	        <h3><br></h3>
+        	    <p><h3>
+					</h3>
+					<img src="../img/06 b pich.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+		</div>
+	</div>
+	<h2 class="subtitulo">BILLETERA DIGITAL</h2>
+	<div class="clases">
+        <div class="tiposdeclases">
+        	<div class="bcp">
+        	    <h2>PAGO EFECTIVO</h2>
+        	        <h3><br></h3>
+        	    <p>
+					<h3>
+					</h3>
+					<img src="../img/07 p efect.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="interbank">
+        	    <h2>MASTERCARD</h2>
+        	        <h3><br></h3>
+        	    <p><h3>
+					</h3>
+					<img src="../img/08 master.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="scotiabank">
+        	    <h2>YAPE</h2>
+        	        <h3><br></h3>
+        	    <p><h3>
+					</h3>
+					<img src="../img/09 yape.png" class="imagen-pagos u-full-width">
+				</p><br>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+		</div>
+		<div class="tiposdeclases2">	
+			<div class="continental">
+        	    <h2>SKRILL</h2>
+        	    <p><h3>
+					</h3>
+					<img src="../img/10 skrill.png" class="imagen-pagos u-full-width">
+				</p>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="nacion">
+        	    <h2>LUKITA</h2>
+        	    <p><h3>
+					</h3>
+					<img src="../img/11 lukita.png" class="imagen-pagos u-full-width">
+				</p>
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+			<div class="pichincha">
+        	    <h2>LIGO</h2>
+        	    <p><h3>
+					</h3>
+					<img src="../img/12 tunki.png" class="imagen-pagos u-full-width">
+				</p>
+
+				<p>
+					<button class="buttcomprar" onclick="location.href='http://127.0.0.1:5500/templates/formulario.html'
+					">Adquirir</button>
+				</p>	
+			</div>
+		</div>
 	</div>
 
 	<div id="pie">
@@ -273,16 +215,11 @@
 			<div class="icon"><a class="icon-linkedin" href="https://www.linkedin.com/"></a></div>
 		</div>
 		<div class="pieresenas">
-        	<a>¿Quienes somos?</a><br><br>
-        	<a>Términos y condiciones</a>
-    	</div>
-
-    	<div class="pieresenas">
-        	<a>FaQ</a><br><br>
-	    	<a>Derechos son reservados</a><br><br>
-	    	<a>Libro de reclamaciones</a>
+            
+			<a>Términos y condiciones</a><br>
+			<a>Derechos son reservados</a>
 		</div>
-			
+		
 	</div>
 </div>
 <br>
